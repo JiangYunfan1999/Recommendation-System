@@ -1,0 +1,23 @@
+# 定义数据读取函数
+def load_data(file_dir):
+    user_id_dict, rated_mov_id_dict = {},{}
+    u_idx, m_idx, r_idx = 0, 0, 0
+    data_list = []
+    
+    f = open(file_dir)
+    for line in f.readlines():
+        usr,mov,rating,_ = line.split('::')
+        if int(usr) not in user_id_dict:
+            user_id_dict[int(usr)] = u_idx
+            u_idx += 1
+        if int(mov) not in rated_mov_id_dict:
+            rated_mov_id_dict[int(mov)] = m_idx
+            m_idx += 1
+        # 标准化用户ID和电影ID
+        data_list.append([r_idx,user_id_dict[int(usr)],rated_mov_id_dict[int(mov)],float(rating)])
+        r_idx += 1
+    f.close()
+    
+    N,M = u_idx,m_idx
+    
+    return data_list,user_id_dict,rated_mov_id_dict,N,M
