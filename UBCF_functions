@@ -21,3 +21,4 @@ def load_data(file_dir):
     N,M = u_idx,m_idx
     
     return data_list,user_id_dict,rated_mov_id_dict,N,M
+
