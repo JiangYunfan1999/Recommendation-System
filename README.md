@@ -10,8 +10,8 @@ My undergraduate thesis!
 
 **Content**：在MovieLens数据集上实现三种推荐算法：
 1. 基于用户的协同过滤（UBCF）
-2. 基于矩阵分解的协同过滤（MF）
-3. 基于深度学习的协同过滤（DL）
+2. 基于矩阵分解的协同过滤（MFBCF）
+3. 基于深度学习的协同过滤（DLBCF）
 
 ## What it means to me
 **Speciality**：
