@@ -2,7 +2,9 @@
 Recommendation algorithms on MovieLens 1M dataset
 
 ## What it is
-My undergraduate thesis! （又名，本科毕业の学术垃圾）
+My undergraduate thesis! 
+
+本科毕业论文（又名，本科毕业の学术垃圾）
 
 **Title**: 基于数据稀疏性问题的协同过滤算法研究与应用
 
@@ -16,6 +18,7 @@ My undergraduate thesis! （又名，本科毕业の学术垃圾）
 - 上海疫情封闭的第二个月
 - 在复旦五年本科生活的终章
 - 我在GitHub上创建的第一个项目
-Wishes：
+
+**Wishes**：
 - 研究生要做一个不怕代码的学习er
 - Hope to become an extraordinary Business Analyst!
